@@ -62,4 +62,13 @@ CREATE TABLE aluno (
  - `id = 2`: coluna e valor filtrado 
 
 
+~~~sql
+DELETE FROM aluno WHERE id = 3;
+~~~
+
+ - `DELETE`: comando para deletar valor na tabela
+ - `FROM`: indica tabela
+ - `aluno`: nome da tabela
+ - `WHERE`: comando para filtrar linha da tabela
+ - `id = 3`: coluna e valor filtrado
 
