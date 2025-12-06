@@ -24,5 +24,17 @@ CREATE TABLE aluno (
 - `INTEGER`, `TEXT`, `BOOLEAN`: tipos de dados da coluna
 - `NOT NULL`: não permite ausência de valor na coluna
 
+<h4>INSERT INTO</h4>
+ ~~~ sql
+ INSERT INTO aluno (nome, telefone, curso, turma, unidade)
+ VALUES ('Vitoria', '(85) 99123455', 'Fullstack', 26, 'Sul');
+ ~~~
+
+ - `INSERT INTO`: comando para inserir dados na tabela
+ - `aluno` : nome da tabela
+ - `(nome, telefone, curso, turma, unidade)`: colunas da tabela que serão inseridos dados
+ - `VALUES`: define valores a serem inseridos
+ - `('Vitoria', '(85) 99123455', 'Fullstack', 26, 'Sul')` : valores para cada coluna da tabela referente a ordem especificada
+
 
 
