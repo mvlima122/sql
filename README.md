@@ -24,10 +24,11 @@ CREATE TABLE aluno (
 - `INTEGER`, `TEXT`, `BOOLEAN`: tipos de dados da coluna
 - `NOT NULL`: não permite ausência de valor na coluna
 
-<h4>INSERT INTO</h4>
- ~~~ sql
+<h4>Selecionar tabela</h4>
+
+ ~~~sql
   INSERT INTO aluno (nome, telefone, curso, turma, unidade)
-  VALUES ('Vitoria', '(85) 99123455', 'Fullstack', 26, 'Sul');
+  VALUES ('Vitoria', '(85) 99123455', 'Fullstack', 26, 'Sul'); 
  ~~~
 
  - `INSERT INTO`: comando para inserir dados na tabela
@@ -46,6 +47,19 @@ CREATE TABLE aluno (
  - `*`: indica todas as colunas da tabela
  - `FROM`: indica qual tabela será selecionada
  - `aluno`: nome da tabela 
+
+ <h4>Altualizar valor na tabela </h4>
+
+ ~~~sql
+ UPDATE aluno SET turma = 11 WHERE id = 2;
+ ~~~
+
+ - `UPDATE`: comando para atualizar valor na tabela
+ - `aluno`: nome da tabela
+ - `SET`: comando para definir coluna e valor de atualização
+ - `turma = 11`: coluna da tabela e novo valor
+ - `WHERE`: comando para filtrar linha da tabela
+ - `id = 2`: coluna e valor filtrado 
 
 
 
