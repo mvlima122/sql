@@ -36,5 +36,16 @@ CREATE TABLE aluno (
  - `VALUES`: define valores a serem inseridos
  - `('Vitoria', '(85) 99123455', 'Fullstack', 26, 'Sul')` : valores para cada coluna da tabela referente a ordem especificada
 
+ <h4> Selecionar Tabela</h4>
+
+ ~~~ sql
+ SELECT * FROM aluno;
+ ~~~
+
+ - `SELECT` : comando para selecionar a tabela 
+ - `*`: indica todas as colunas da tabela
+ - `FROM`: indica qual tabela será selecionada
+ - `aluno`: nome da tabela 
+
 
 
