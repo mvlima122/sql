@@ -26,8 +26,8 @@ CREATE TABLE aluno (
 
 <h4>INSERT INTO</h4>
  ~~~ sql
- INSERT INTO aluno (nome, telefone, curso, turma, unidade)
- VALUES ('Vitoria', '(85) 99123455', 'Fullstack', 26, 'Sul');
+  INSERT INTO aluno (nome, telefone, curso, turma, unidade)
+  VALUES ('Vitoria', '(85) 99123455', 'Fullstack', 26, 'Sul');
  ~~~
 
  - `INSERT INTO`: comando para inserir dados na tabela
@@ -42,7 +42,7 @@ CREATE TABLE aluno (
  SELECT * FROM aluno;
  ~~~
 
- - `SELECT` : comando para selecionar a tabela 
+ - `SELECT` : comando para selecionar a coluna da tabela
  - `*`: indica todas as colunas da tabela
  - `FROM`: indica qual tabela será selecionada
  - `aluno`: nome da tabela 
